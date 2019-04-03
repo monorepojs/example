@@ -1,0 +1,8 @@
+# .monorepo.yml
+src: src
+lib: lib
+srcWorkspaces:
+  - packages/*
+env:
+  production:
+    srcWorkspaces: []

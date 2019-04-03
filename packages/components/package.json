@@ -1,0 +1,22 @@
+{
+  "name": "@example/components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@monorepojs/scripts": "0.3.8",
+    "@monorepojs/tools": "0.2.4"
+  },
+  "scripts": {
+    "lint": "monorepo-tools lint ./src",
+    "pre-commit": "monorepo-tools pre-commit",
+    "start": "monorepo-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
